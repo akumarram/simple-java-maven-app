@@ -21,10 +21,6 @@ pipeline {
                echo 'deliver complete'
             }
         }
-        stage('Complete') {
-            steps {
-                echo 'job completed'
-            }
-        }        
+        
     }
 }
